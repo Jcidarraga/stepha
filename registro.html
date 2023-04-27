@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/registro.css">
+  <title>Login</title>
+</head>
+  <body>
+    <div class="login">
+      <div class="form-container">
+        <img src="./assets/cochecito-de-bebe.png" alt="logo" class="logo">
+
+        <h1>Crear cuenta</h1>
+
+        <form action="./login.html" class="form">
+
+          <label for="Username" class="label">Nombre</label>
+          <input type="text" id="nameRegistro" placeholder="Nombre" class="input input-user" required autocomplete="off">
+
+          <label for="Username" class="label">Email</label>
+          <input type="email" id="emailRegistro" placeholder="Email" class="input input-user" required autocomplete="off">
+
+          <label for="Username" class="label">Usuario</label>
+          <input type="text" id="usernameRegistro" placeholder="Usuario" class="input input-user" required autocomplete="off">
+
+          <label for="Celular" class="label">Password</label>
+          <input type="text" id="passRegistro" placeholder="********" class="input input-user" required autocomplete="off">
+
+          <input type="submit" value="Registrarse" class="primary-button login-button" id="register-button">
+        </form>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
