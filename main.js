@@ -34,11 +34,6 @@ iconMenu.addEventListener('click', toggleMobileMenu);
 productDetailClose.addEventListener('click', closeProductDetail )
 
 function toggleDesktopMenu() {
-    const isDeteailClosed = shoppingCart.classList.contains('inactive');
-
-    if (!isDeteailClosed) {
-        shoppingCart.classList.add('inactive');
-    }
     desktopMenu.classList.toggle('inactive');
 }
 
@@ -73,7 +68,7 @@ function toggleDetail() {
 }
 
 function openProductDetail(){
-
+    
     productDetailContainer.classList.remove('inactive')
     
 }
@@ -141,7 +136,7 @@ function productos(arr){
         const figure = document.createElement('figure');
     
         const productImg = document.createElement('img')
-        productImg.setAttribute('src', './icons/bt_add_to_cart.svg');
+        productImg.setAttribute('src', './assets/icons8-add-50.png');
     
         figure.appendChild(productImg);
     

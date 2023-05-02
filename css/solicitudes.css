@@ -25,6 +25,8 @@ nav {
     justify-content: space-between;
     padding: 0 24px;
     border-bottom: 1px solid var(--very-light-pink);
+    background: rgb(255, 194, 245);
+    background: linear-gradient(31deg, rgba(255, 194, 245, 0.5356267507002801) 20%, rgba(0, 212, 255, 1) 100%) no-repeat;
 }
 
 .menu {
@@ -56,21 +58,22 @@ nav {
 .navbar-left ul li a,
 .navbar-right ul li a {
     text-decoration: none;
-    color: var(--very-light-pink);
+    color: var(--black);
     border: 1px solid var(--white);
     padding: 8px;
     border-radius: 8px;
+    font-size: var(--lg);
 }
 
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover {
-    border: 1px solid var(--hospital-green);
-    color: var(--hospital-green);
+    border: 1px solid var(--blue);
+    color: var(--blue);
 }
 
 .navbar-email {
-    color: var(--very-light-pink);
-    font-size: var(--sm);
+    color: var(--black);
+    font-size: var(--lg);
     margin-right: 12px;
     cursor: pointer;
 }
@@ -127,7 +130,7 @@ nav {
 }
 
 .desktop-menu ul li:last-child a {
-    color: var(--hospital-green);
+    color: var(--pink);
     font-size: var(--sm);
 }
 
@@ -384,6 +387,7 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 @media (max-width: 640px) {
