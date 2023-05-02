@@ -10,33 +10,30 @@
 </head>
 
 <body>
+  <div class="login">
+    <div class="form-container">
+      <img src="./assets/cochecito-de-bebe.png" alt="logo" class="logo">
 
-  <body>
-    <div class="login">
-      <div class="form-container">
-        <img src="./assets/cochecito-de-bebe.png" alt="logo" class="logo">
+      <form action="./solicitudes.html" class="form">
+        <label for="Username" class="label">Usuario</label>
+        <input type="text" id="username" placeholder="Usuario" class="input input-user" required autocomplete="off">
 
-        <form action="./solicitudes.html" class="form">
-          <label for="Username" class="label">Usuario</label>
-          <input type="text" id="username" placeholder="Usuario" class="input input-user" required autocomplete="off">
+        <label for="password" class="label">Contraseña</label>
+        <input type="password" id="password" placeholder="*********" class="input input-password" required>
 
-          <label for="password" class="label">Contraseña</label>
-          <input type="password" id="password" placeholder="*********" class="input input-password" required>
+        <input type="submit" value="Iniciar Sesion" class="primary-button login-button">
+        <a href="./newPassword.html">¿Olvidaste tu contraseña?</a>
 
-          <input type="submit" value="Iniciar Sesion" class="primary-button login-button">
-          <a href="./newPassword.html">¿Olvidaste tu contraseña?</a>
+      </form>
 
-        </form>
+      <p>¿No tienes cuenta?</p>
 
-        <p>¿No tienes cuenta?</p>
-        
-        <a href="./registro.html"><button class="secondary-button signup-button">Crear cuenta</button></a>
-      </div>
+      <a href="./registro.html"><button class="secondary-button signup-button">Crear cuenta</button></a>
     </div>
-    <script src="./main.js"></script>
-  </body>
+  </div>
+  <script src="./main.js"></script>
+</body>
 
 </html>
-</body>
 
 </html>

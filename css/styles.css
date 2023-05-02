@@ -16,7 +16,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     background: rgb(255, 194, 245);
     background: linear-gradient(31deg, rgba(255, 194, 245, 0.5356267507002801) 20%, rgba(0, 212, 255, 1) 100%) no-repeat;
-   }
+}
 
 .inactive {
     display: none;
@@ -147,7 +147,7 @@ aside {
     background-color: var(--white);
 }
 
-#shoppingCartContainer{
+#shoppingCartContainer {
     padding: 0 24px;
 }
 
@@ -247,6 +247,7 @@ aside {
     .desktop-menu {
         display: none;
     }
+
     .cards-container {
         grid-template-columns: repeat(auto-fill, 140px);
     }

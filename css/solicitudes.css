@@ -190,7 +190,7 @@ aside {
     background-color: var(--white);
 }
 
-#shoppingCartContainer{
+#shoppingCartContainer {
     padding: 0 24px;
 }
 
@@ -387,7 +387,7 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 @media (max-width: 640px) {
