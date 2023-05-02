@@ -46,7 +46,14 @@ body {
     font-size: var(--sm);
     text-align: center;
     text-decoration: none;
-    margin-bottom: 52px;
+    margin-bottom: 40px;
+}
+
+p{
+    color: var(--black);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
 }
 
 .label {

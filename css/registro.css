@@ -40,8 +40,17 @@ body {
 
 .title {
   font-size: var(--title);
-  margin-bottom: 36px;
+  margin-bottom: 0px;
   text-align: center;
+}
+
+p{
+  color: var(--black);
+  font-size: var(--sm);
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 36px;
 }
 
 .form {

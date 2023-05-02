@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/login.css">
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/login.css">
+  <title>Login</title>
 </head>
+
 <body>
-    <body>
-        <div class="login">
-          <div class="form-container">
-            <img src="./assets/cochecito-de-bebe.png" alt="logo" class="logo">
 
-            <form action="./solicitudes.html" class="form">
-              <label for="Username" class="label">Usuario</label>
-              <input type="text" id="username" placeholder="Usuario" class="input input-user" required autocomplete="off">
+  <body>
+    <div class="login">
+      <div class="form-container">
+        <img src="./assets/cochecito-de-bebe.png" alt="logo" class="logo">
 
-              <label for="password" class="label">Contraseña</label>
-              <input type="password" id="password" placeholder="*********" class="input input-password" required>
+        <form action="./solicitudes.html" class="form">
+          <label for="Username" class="label">Usuario</label>
+          <input type="text" id="username" placeholder="Usuario" class="input input-user" required autocomplete="off">
 
-              <input type="submit" value="Iniciar Sesion" class="primary-button login-button">
-              <a href="./newPassword.html">Olvidaste tu contraseña</a>
-            </form>
+          <label for="password" class="label">Contraseña</label>
+          <input type="password" id="password" placeholder="*********" class="input input-password" required>
 
-            <a href="./registro.html">
-                <button class="secondary-button signup-button" >Crear cuenta</button>
-              </a> 
-          </div>
-        </div>
-        <script src="./main.js"></script>
-      </body>
-      </html>
+          <input type="submit" value="Iniciar Sesion" class="primary-button login-button">
+          <a href="./newPassword.html">¿Olvidaste tu contraseña?</a>
+
+        </form>
+
+        <p>¿No tienes cuenta?</p>
+        
+        <a href="./registro.html">
+          <button class="secondary-button signup-button">Crear cuenta</button>
+        </a>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+
+</html>
 </body>
+
 </html>
