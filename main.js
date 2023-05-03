@@ -37,13 +37,9 @@ function toggleDesktopMenu() {
 }
 
 function toggleMobileMenu() {
-  const isDeteailClosed = shoppingCart.classList.contains("inactive");
-
-  if (!isDeteailClosed) {
-    shoppingCart.classList.add("inactive");
-  }
+  
   mobileMenu.classList.toggle("inactive");
-  closeProductDetail();
+
 }
 
 function toggleDetail() {
