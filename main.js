@@ -28,7 +28,7 @@ const cardContainer = document.querySelector(".cards-container");
 const productDetailContainer = document.querySelector("#productDetail");
 const productDetailClose = document.querySelector(".product-detail-close");
 
-navEmail.addEventListener("click", toggleDesktopMenu);
+//navEmail.addEventListener("click", toggleDesktopMenu);
 iconMenu.addEventListener("click", toggleMobileMenu);
 productDetailClose.addEventListener("click", closeProductDetail);
 
